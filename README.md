@@ -23,7 +23,7 @@ Code used to generate the main-text figures (Fig. 1-6), including UMAPs, dot plo
 
 ### `Extend data Figure/`
 
-Code used to generate the Extended Data figures, including the extended lineage analyses and supporting panels.
+Code used to generate the Extended Data figures (Extended data Fig. 1,4-8) , including the extended lineage analyses and supporting panels.
 
 ### `Dah APP/`
 
