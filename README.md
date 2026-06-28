@@ -19,7 +19,7 @@ This repository contains the analysis and visualization code accompanying our st
 
 ### `Main Figure/`
 
-Code used to generate the main-text figures (Fig. 1-6), including UMAPs, dot plots, three-dimensional spatial distributions, and related panels.
+Code used to generate the main-text figures (Fig. 1-6), including UMAPs, dot plots, heatmap, and related panels.
 
 ### `Extend data Figure/`
 
@@ -31,8 +31,8 @@ Interactive Dash/Plotly applications for exploring the reconstructed embryo in t
 
 - **`whole_embryo_hvg_res_sub_for_new_axix.py`** - 3D whole-embryo cluster viewer: displays annotated clusters and sub-clusters in the reconstructed embryo, with gene-expression overlays along the AP/DV/LR coordinate system.
 - **`cellnest_visulization.py`** - 3D cell-cell communication viewer: visualizes ligand-receptor connections between sender and receiver cells in their spatial context.
-- **`visulize_Axis_and_pseudotime.py`** - Axis and pseudotime viewer: displays the embryonic coordinate axes, section planes, and pseudotime trajectories.
-- **`line_to_surface_gut_final.py`** - Curvilinear coordinate reconstruction of the gut tube: builds a continuous coordinate system along the gut tube and projects cells onto an unrolled surface.
+- **`visulize_Axis_and_pseudotime.py`** - Axis and pseudotime viewer: displays the embryonic coordinate axes, and pseudotime trajectories.
+- **`Anatomical axis reconstruction.py`** - Curvilinear coordinate reconstruction of Anatomical axis: builds a continuous coordinate system along the Anatomical axis (eg: nerual tube, gut tube) and projects cells onto an unrolled surface.
 
 ### `R/`
 
@@ -40,7 +40,7 @@ R scripts for downstream analysis.
 
 ## Requirements
 
-The analysis was performed in Python 3.10 using [Scanpy](https://scanpy.readthedocs.io/) (v1.11). The Dash applications additionally require [Dash](https://dash.plotly.com/) and [Plotly](https://plotly.com/python/). R scripts require a recent version of R.
+The analysis was performed in Python 3.10 using [Scanpy](https://scanpy.readthedocs.io/) (v1.11). The Dash applications additionally require [Dash](https://dash.plotly.com/) and [Plotly](https://plotly.com/python/). R scripts require a R (v4.3).
 
 ## Usage
 
